@@ -118,7 +118,7 @@ s.resource = 'framework/*.{bundle}'
 # s.frameworks = "SomeFramework", "AnotherFramework"
 
 
-s.library   = "libc++.1"
+s.library   = "libc++.1.tbd"
 # s.libraries = "iconv", "xml2"
 
 

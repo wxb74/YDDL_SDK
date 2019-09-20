@@ -52,7 +52,7 @@ s.homepage     = "https://www.sai360.cn/site/index.html"
 #  profile URL.
 #
 
-s.author             = { "yddl" => "sai360.cn" }
+s.author             = { "wxb" => "563527728@qq.com" }
 # Or just: s.author    = ""
 # s.authors            = { "" => "" }
 # s.social_media_url   = "http://twitter.com/"

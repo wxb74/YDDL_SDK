@@ -89,8 +89,8 @@ s.source       = { :git => "https://github.com/wxb74/YDDL_SDK.git", :tag => "#{s
 #  Not including the public_header_files will make all headers public.
 #
 
-s.vendored_frameworks =  'simulator/*.{framework}'
-s.resource = 'simulator/*.{bundle}'
+s.vendored_frameworks =  'framework/*.{framework}'
+s.resource = 'framework/*.{bundle}'
 
 
 # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

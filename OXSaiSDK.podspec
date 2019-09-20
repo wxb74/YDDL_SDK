@@ -24,9 +24,10 @@ s.summary      = "OXSaiSDK"
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
-s.description  = "一点登录/本机号码校验"
 
+s.description  = "一点登录/本机号码校验"
 s.homepage     = "https://www.sai360.cn/site/index.html"
+
 # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -88,7 +89,7 @@ s.source       = { :git => "https://github.com/wxb74/YDDL_SDK.git", :tag => "#{s
 #  For header files it will include any header in the folder.
 #  Not including the public_header_files will make all headers public.
 #
-
+s.source_files = "framework"
 s.vendored_frameworks =  'framework/*.{framework}'
 s.resource = 'framework/*.{bundle}'
 

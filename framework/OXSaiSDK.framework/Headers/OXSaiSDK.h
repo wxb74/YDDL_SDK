@@ -6,7 +6,7 @@
 //
 
 
-#import "OXClientEntry.h"
-#import "OXOneKeyCustomModel.h"
-#import "OXRequestParamsKey.h"
+#import <OXSaiSDK/OXClientEntry.h>
+#import <OXSaiSDK/OXOneKeyCustomModel.h>
+#import <OXSaiSDK/OXRequestParamsKey.h>
 

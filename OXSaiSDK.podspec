@@ -37,8 +37,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "LGPL" }
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = { :type => "LGPL" }
+   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = 'framework/*.{bundle}'
-  s.vendored_frameworks =  'framework/*.{framework}'
+  s.vendored_frameworks =  'OXSaiSDK.framework'
   s.resource = 'framework/*.{bundle}'
 
   # s.public_header_files = "Classes/**/*.h"

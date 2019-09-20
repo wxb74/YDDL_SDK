@@ -79,7 +79,7 @@ s.author             = { "yddl" => "sai360.cn" }
 #  Supports git, hg, bzr, svn and HTTP.
 #
 
-s.source       = { :git => "https://github.com/wxb74/YDDL_SDK.git", :tag => "#{s.version}" }
+s.source       = { :git => "https://cocoapods.org/pods/OXSaiSDK.git", :tag => "#{s.version}" }
 
 
 # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

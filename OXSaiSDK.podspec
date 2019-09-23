@@ -127,7 +127,12 @@ s.resource = 'framework/*.{bundle}'
 #  you can include multiple dependencies to ensure it works.
 
 #
-# s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+s.pod_target_xcconfig = {
+'ENABLE_BITCODE' => 'NO',
+'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/OXSaiSDK',
+'OTHER_LDFLAGS' => '$(inherited) -undefined dynamic_lookup -ObjC'
+}
+
 # s.dependency "JSONKit", "~> 1.4"
 
 end

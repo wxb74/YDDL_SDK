@@ -39,7 +39,7 @@ s.social_media_url   = 'https://github.com/wxb74/YDDL_SDK'
 s.source_files = 'framework/OXSaiSDK.framework/Headers/*.{h}'
 
 #你的SDK路径
-s.vendored_frameworks = 'framework/trs_ta_sdk.framework'
+s.vendored_frameworks = 'framework/OXSaiSDK.framework'
 
 s.resource = 'framework/*.{bundle}'
 
